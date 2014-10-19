@@ -14,6 +14,8 @@
 		1D7E57AD19F3B37400D8E443 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D7E57AC19F3B37400D8E443 /* Images.xcassets */; };
 		1D7E57B019F3B37400D8E443 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D7E57AE19F3B37400D8E443 /* LaunchScreen.xib */; };
 		1D7E57BC19F3B37400D8E443 /* CustomLocalNotificationSoundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7E57BB19F3B37400D8E443 /* CustomLocalNotificationSoundTests.m */; };
+		1D7E57C819F3B44700D8E443 /* rain.caf in Resources */ = {isa = PBXBuildFile; fileRef = 1D7E57C719F3B44700D8E443 /* rain.caf */; };
+		1D7E57CA19F3B45800D8E443 /* rain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1D7E57C919F3B45800D8E443 /* rain.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		1D7E57B519F3B37400D8E443 /* CustomLocalNotificationSoundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomLocalNotificationSoundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D7E57BA19F3B37400D8E443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D7E57BB19F3B37400D8E443 /* CustomLocalNotificationSoundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomLocalNotificationSoundTests.m; sourceTree = "<group>"; };
+		1D7E57C719F3B44700D8E443 /* rain.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = rain.caf; sourceTree = "<group>"; };
+		1D7E57C919F3B45800D8E443 /* rain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rain.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 		1D7E579F19F3B37400D8E443 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1D7E57C719F3B44700D8E443 /* rain.caf */,
+				1D7E57C919F3B45800D8E443 /* rain.mp3 */,
 				1D7E57A019F3B37400D8E443 /* Info.plist */,
 				1D7E57A119F3B37400D8E443 /* main.m */,
 			);
@@ -200,7 +206,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D7E57AB19F3B37400D8E443 /* Main.storyboard in Resources */,
+				1D7E57CA19F3B45800D8E443 /* rain.mp3 in Resources */,
 				1D7E57B019F3B37400D8E443 /* LaunchScreen.xib in Resources */,
+				1D7E57C819F3B44700D8E443 /* rain.caf in Resources */,
 				1D7E57AD19F3B37400D8E443 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
