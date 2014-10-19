@@ -25,16 +25,11 @@
 }
 
 - (IBAction)setLocalNotification:(id)sender {
-    if ([UIApplication instancesRespondToSelector:@selector(registerUserNotificationSettings:)]) {
-        [[UIApplication sharedApplication] registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeAlert | UIUserNotificationTypeSound
-                                                                                                              categories:nil]];
-    }
-    
     UILocalNotification *localNotification = [[UILocalNotification alloc] init];
     localNotification.timeZone = [NSTimeZone defaultTimeZone];
     localNotification.fireDate = [NSDate dateWithTimeIntervalSinceNow:10];
     localNotification.alertBody = @"It's time to wake up!";
-    localNotification.soundName = @"rain.mp3";  //UILocalNotificationDefaultSoundName;
+    localNotification.soundName = @"rain2.caf";
     [[UIApplication sharedApplication] scheduleLocalNotification:localNotification];
 }
 
