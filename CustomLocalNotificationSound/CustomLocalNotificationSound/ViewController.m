@@ -29,7 +29,7 @@
     localNotification.timeZone = [NSTimeZone defaultTimeZone];
     localNotification.fireDate = [NSDate dateWithTimeIntervalSinceNow:10];
     localNotification.alertBody = @"It's time to wake up!";
-    localNotification.soundName = @"rain2.caf";
+    localNotification.soundName = @"rain.caf";
     [[UIApplication sharedApplication] scheduleLocalNotification:localNotification];
 }
 
