@@ -16,10 +16,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LW7-gR-QHK">
-                                <rect key="frame" x="66" y="154" width="46" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                <state key="normal" title="Button">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LW7-gR-QHK">
+                                <rect key="frame" x="178" y="278" width="245" height="45"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Set LocalNotification">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -29,6 +29,8 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="centerY" secondItem="LW7-gR-QHK" secondAttribute="centerY" id="2US-jH-aNs"/>
+                            <constraint firstAttribute="centerX" secondItem="LW7-gR-QHK" secondAttribute="centerX" id="JUm-I9-Yl0"/>
                             <constraint firstAttribute="centerX" secondItem="LW7-gR-QHK" secondAttribute="centerX" id="jtP-Cz-TRp"/>
                             <constraint firstAttribute="centerY" secondItem="LW7-gR-QHK" secondAttribute="centerY" id="lxt-uK-ByD"/>
                         </constraints>
